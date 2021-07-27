@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7264F85923A85E0800AFD85F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7264F85823A85E0800AFD85F /* main.cpp */; };
+		7264F85923A85E0800AFD85F /* CECS328_Lab9.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7264F85823A85E0800AFD85F /* CECS328_Lab9.cpp */; };
+		7264F86123A85F3100AFD85F /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7264F86023A85F3000AFD85F /* Graph.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		7264F85523A85E0800AFD85F /* Lab9 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab9; sourceTree = BUILT_PRODUCTS_DIR; };
-		7264F85823A85E0800AFD85F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7264F85823A85E0800AFD85F /* CECS328_Lab9.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CECS328_Lab9.cpp; sourceTree = "<group>"; };
+		7264F85F23A85E9E00AFD85F /* Graph.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Graph.hpp; path = ../../Lab8/Lab8/Graph.hpp; sourceTree = "<group>"; };
+		7264F86023A85F3000AFD85F /* Graph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Graph.cpp; path = ../../Lab8/Lab8/Graph.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		7264F85723A85E0800AFD85F /* Lab9 */ = {
 			isa = PBXGroup;
 			children = (
-				7264F85823A85E0800AFD85F /* main.cpp */,
+				7264F85823A85E0800AFD85F /* CECS328_Lab9.cpp */,
+				7264F85F23A85E9E00AFD85F /* Graph.hpp */,
+				7264F86023A85F3000AFD85F /* Graph.cpp */,
 			);
 			path = Lab9;
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7264F85923A85E0800AFD85F /* main.cpp in Sources */,
+				7264F86123A85F3100AFD85F /* Graph.cpp in Sources */,
+				7264F85923A85E0800AFD85F /* CECS328_Lab9.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
